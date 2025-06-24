@@ -1,2 +1,2 @@
-# SMART
-SMART (Shoppers' Multimodal Augmented Reality Technology)
+# SMART (Shoppers' Multimodal Augmented Reality Technology)
+ SMART is an AI-powered, AR-enhanced shopping assistant that revolutionizes the online retail experience by eliminating the uncertainty factor in e-commerce purchases. By integrating computer vision, emotion detection, and augmented reality technologies, SMART transforms Walmart's digital platform into an immersive, personalized shopping environment that significantly reduces return rates while boosting customer confidence and engagement.
