@@ -1,0 +1,80 @@
+This is the folder structure of the repo (excluding node_modules):
+.
+├── backend
+│   ├── Dockerfile
+│   ├── models
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── server.js
+│   └── src
+│       ├── controllers
+│       ├── middleware
+│       ├── ml
+│       ├── routes
+│       │   ├── arRoutes.js
+│       │   ├── measurementRoutes.js
+│       │   └── productRoutes.js
+│       ├── services
+│       │   └── productParser.js
+│       └── utils
+├── docker-compose.yml
+├── folder-structure.txt
+├── frontend
+│   ├── Dockerfile
+│   ├── README.md
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── public
+│   │   └── vite.svg
+│   ├── src
+│   │   ├── App.css
+│   │   ├── App.tsx
+│   │   ├── assets
+│   │   │   └── react.svg
+│   │   ├── components
+│   │   │   ├── ar
+│   │   │   │   ├── AROverlay.tsx
+│   │   │   │   └── ARViewer.tsx
+│   │   │   ├── common
+│   │   │   │   └── Navbar.tsx
+│   │   │   ├── scanner
+│   │   │   └── ui
+│   │   ├── index.css
+│   │   ├── main.tsx
+│   │   ├── pages
+│   │   │   ├── ARExperiencePage.tsx
+│   │   │   ├── HomePage.tsx
+│   │   │   └── ScannerPage.tsx
+│   │   ├── store
+│   │   │   └── useStore.ts
+│   │   ├── styles
+│   │   │   └── globals.css
+│   │   ├── types
+│   │   │   └── index.ts
+│   │   └── vite-env.d.ts
+│   ├── tailwind.config.js
+│   ├── tsconfig.app.json
+│   ├── tsconfig.json
+│   ├── tsconfig.node.json
+│   └── vite.config.ts
+├── ml-service
+│   ├── Dockerfile
+│   ├── app.py
+│   ├── models
+│   ├── processors
+│   │   └── size_recommendation.py
+│   └── requirements.txt
+├── models
+│   ├── category-classifier
+│   ├── fit-analyzer
+│   └── size-predictor
+├── nginx
+│   ├── nginx.conf
+│   └── ssl
+├── package-lock.json
+└── processors
+
+33 directories, 44 files
